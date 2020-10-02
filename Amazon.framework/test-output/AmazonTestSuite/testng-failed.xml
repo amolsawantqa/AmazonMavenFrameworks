@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [AmazonTestSuite]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="amazon.framework.testcases.TestItemSearch">
+        <methods>
+          <include name="ItemSearchTest"/>
+          <include name="setUpSuite"/>
+        </methods>
+      </class> <!-- amazon.framework.testcases.TestItemSearch -->
+      <class name="amazon.framework.testcases.LoginTestAmazon">
+        <methods>
+          <include name="LoginToAmazon"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- amazon.framework.testcases.LoginTestAmazon -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [AmazonTestSuite] -->
